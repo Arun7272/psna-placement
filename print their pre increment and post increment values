@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        int d = ++a;  
+        int c = b++;  
+
+        System.out.printf("Pre increment:%d\n", d);
+        System.out.printf("Post increment:%d\n", c);
+        System.out.printf("Final values:%d %d\n", a, b);
+
+        sc.close();
+    }
+}
